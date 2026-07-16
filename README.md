@@ -26,8 +26,8 @@ The goal of this repository is to understand Object-Oriented Programming, SOLID 
 ### ✅ Phase 2 - SOLID Principles (In Progress)
 
 - ✔ Single Responsibility Principle (SRP)
-- ⏳ Open Closed Principle (OCP)
-- ⏳ Liskov Substitution Principle (LSP)
+- ✔ Open Closed Principle (OCP)
+- ✔ Liskov Substitution Principle (LSP)
 - ⏳ Interface Segregation Principle (ISP)
 - ⏳ Dependency Inversion Principle (DIP)
 
