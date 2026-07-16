@@ -1,0 +1,12 @@
+
+
+public class PayPalPayment implements Payment {
+
+    @Override
+    public void pay() {
+
+        System.out.println("PayPal Payment Successful.");
+
+    }
+
+}
