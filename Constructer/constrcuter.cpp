@@ -11,9 +11,19 @@ private:
 
    
 public:
+
+    //non-paramatized constrcter
     Teacher(){
         dpt = "Computer Science";
         salary = 0;
+    }
+
+    //Paramatezied constructer
+
+    Teacher(string n,string d,double sal){
+        name = n;
+        dpt = d;
+        salary = sal;
     }
 
 
@@ -44,6 +54,8 @@ public:
 int main(){
     //Non-paramatezied constrcuter
     Teacher t1; //Cosntructer call
+
+    
 
     t1.name="Sarathak";
     t1.setsalary(25000);
