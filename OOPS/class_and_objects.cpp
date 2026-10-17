@@ -11,12 +11,24 @@ public:
     string name;
     string dept;
     string subj;
+private:
     double salary;
+
 
     //method functon -> class ke andar ke functions 
 
     void ChangeDept(string newDept){
         dept = newDept;
+    }
+
+    //setter
+    void getsalary(double s){
+        salary = s;
+    }
+
+    //getter
+    double getsalary(){
+        return salary;
     }
 
 
