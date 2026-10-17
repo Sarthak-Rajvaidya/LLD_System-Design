@@ -22,6 +22,13 @@ public:
         return balance;
     }
 
+    void setpassword(string p){
+        password=p;
+    }
+    string getpassword(){
+        return password;
+    }
+
 };
 
 
@@ -31,8 +38,10 @@ int main(){
     a1.username = "Sarthak";
     a1.userID = 201;
     a1.setbalance(25000);
+    a1.setpassword("KAnha@123");
 
     cout<<a1.getbalance()<<endl;
+    cout<<a1.getpassword()<<endl;
 
 
 
