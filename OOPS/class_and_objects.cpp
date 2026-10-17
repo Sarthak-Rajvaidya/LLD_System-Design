@@ -51,7 +51,7 @@ int main(){
     t1.setsalary(25000);
 
     cout<<t1.name<<endl;
-    cout<<t1.setsalary<<endl;
+    cout<<t1.getsalary()<<endl;
 
 
 
