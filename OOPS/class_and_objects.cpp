@@ -12,6 +12,12 @@ class Teacher{
     string subj;
     double salary;
 
+    //method functon -> class ke andar ke functions 
+
+    void ChangeDept(string newDept){
+        dept = newDept;
+    }
+
 
 
 };
