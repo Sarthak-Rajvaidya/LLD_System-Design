@@ -4,6 +4,9 @@
 using namespace std;
 
 class Teacher{
+
+private:
+    double salary;
 public:
 
     //Properties:-
@@ -11,8 +14,7 @@ public:
     string name;
     string dept;
     string subj;
-private:
-    double salary;
+
 
 
     //method functon -> class ke andar ke functions 
@@ -22,7 +24,7 @@ private:
     }
 
     //setter
-    void getsalary(double s){
+    void setsalary(double s){
         salary = s;
     }
 
@@ -35,14 +37,6 @@ private:
 
 };
 
-class Student{
-public:
-
-    string name;
-    string dept;
-    int age;
-
-};
 
 
 
@@ -54,13 +48,14 @@ int main(){
     t1.name = "Sarthak";
     t1.dept = "CS";
     t1.subj = "C++";
-    t1.salary=245000;
+    t1.setsalary(25000);
 
     cout<<t1.name<<endl;
+    cout<<t1.setsalary<<endl;
 
-    Student s1;
-    s1.name = "sarth";
-    cout<<s1.name<<endl;
+
+
+   
     
 
     return 0;
