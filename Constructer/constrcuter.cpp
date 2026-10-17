@@ -12,11 +12,11 @@ private:
    
 public:
 
-    //non-paramatized constrcter
-    Teacher(){
-        dpt = "Computer Science";
-        salary = 0;
-    }
+    // //non-paramatized constrcter
+    // Teacher(){
+    //     dpt = "Computer Science";
+    //     salary = 0;
+    // }
 
     //Paramatezied constructer
 
@@ -35,12 +35,18 @@ public:
     
 
 
-    void setsalary(double s){
-        salary = s;
-    }
-    double getsalary(){
-        return salary;
+    // void setsalary(double s){
+    //     salary = s;
+    // }
+    // double getsalary(){
+    //     return salary;
 
+    // }
+
+
+    void getinfo(){
+        cout<<"name : "<<name<<endl;
+        cout<<"dep : "<<dpt<<endl; 
     }
 
 
@@ -53,15 +59,18 @@ public:
 
 int main(){
     //Non-paramatezied constrcuter
-    Teacher t1; //Cosntructer call
+    // Teacher t1; //Cosntructer call
 
     
 
-    t1.name="Sarathak";
-    t1.setsalary(25000);
+    // t1.name="Sarathak";
+    // t1.setsalary(25000);
 
-    cout<<t1.dpt<<endl;
-    cout<<t1.getsalary()<<endl;
+    // cout<<t1.dpt<<endl;
+    // cout<<t1.getsalary()<<endl;
+
+    Teacher t1("SArthak","computer Science",25000);
+    t1.getinfo();
 
 
 
