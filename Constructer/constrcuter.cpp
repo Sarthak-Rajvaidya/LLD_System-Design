@@ -42,7 +42,8 @@ public:
 
 
 int main(){
-    Teacher t1;
+    //Non-paramatezied constrcuter
+    Teacher t1; //Cosntructer call
 
     t1.name="Sarathak";
     t1.setsalary(25000);
