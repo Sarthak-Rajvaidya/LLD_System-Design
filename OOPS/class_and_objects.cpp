@@ -4,6 +4,7 @@
 using namespace std;
 
 class Teacher{
+public:
 
     //Properties:-
 
@@ -22,6 +23,15 @@ class Teacher{
 
 };
 
+class Student{
+public:
+
+    string name;
+    string dept;
+    int age;
+
+};
+
 
 
 
@@ -35,6 +45,10 @@ int main(){
     t1.salary=245000;
 
     cout<<t1.name<<endl;
+
+    Student s1;
+    s1.name = "sarth";
+    cout<<s1.name<<endl;
     
 
     return 0;
