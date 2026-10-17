@@ -1,3 +1,5 @@
+//Encapsulation :- Hide data from user to make data confidentail
+
 #include<iostream>
 #include<string>
 
