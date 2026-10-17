@@ -26,6 +26,17 @@ class Teacher{
 
 
 int main(){
+
+
+    Teacher t1;
+    t1.name = "Sarthak";
+    t1.dept = "CS";
+    t1.subj = "C++";
+    t1.salary=245000;
+
+    cout<<t1.name<<endl;
+    
+
     return 0;
 
 }
