@@ -22,7 +22,7 @@ public:
 
     void getInfo(){
         cout<<"NAme : "<<name<<endl;
-        cout<<"CGPA : "<<cgpa<<endl;
+        cout<<"CGPA : "<<*cgpaptr<<endl;
 
     }
 
