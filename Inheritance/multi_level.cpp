@@ -15,6 +15,12 @@ public:
     
 };
 
+class GradStudent:public Student{
+public:
+    string Researcharea;
+
+};
+
 int main(){
     return 0;
 }
