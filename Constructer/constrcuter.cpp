@@ -26,6 +26,15 @@ public:
         salary = sal;
     }
 
+    //Copy constrcter
+
+    Teacher(Teacher &orgobj){
+        this->name = orgobj.name;
+        this->dpt = orgobj.dpt;
+        this->salary=orgobj.salary;
+
+    }
+
 
 
 
@@ -73,8 +82,8 @@ int main(){
     // t1.getinfo();
 
     //Copy constrcter
-    Teacher t2(t1);
-    t2.getinfo();
+    // Teacher t2(t1);
+    // t2.getinfo();
 
 
 
