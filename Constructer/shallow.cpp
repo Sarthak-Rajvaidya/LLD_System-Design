@@ -33,6 +33,8 @@ int main(){
     Student s1("Sarthak",8.12);
     s1.getInfo();
     Student s2(s1);
+    *(s2.cgpaptr) = 8.09;
+    
     s2.getInfo();
     
     
