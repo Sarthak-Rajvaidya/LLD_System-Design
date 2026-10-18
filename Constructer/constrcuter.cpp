@@ -29,6 +29,7 @@ public:
     //Copy constrcter
 
     Teacher(Teacher &orgobj){
+        cout<<"I am a copy constrctuer"<<endl;
         this->name = orgobj.name;
         this->dpt = orgobj.dpt;
         this->salary=orgobj.salary;
@@ -84,6 +85,11 @@ int main(){
     //Copy constrcter
     // Teacher t2(t1);
     // t2.getinfo();
+
+    //Custom copy constructer
+
+    Teacher t2(t1);
+    t2.getinfo();
 
 
 
