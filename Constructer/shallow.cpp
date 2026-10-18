@@ -5,11 +5,13 @@ using namespace std;
 class Student{
 public:
     string name;
-    double cgpa;
+    double* cgpaptr;
 
     Student(string name,double cgpa){
         this->name = name;
-        this->cgpa = cgpa;
+        cgpaptr = new double;
+        *cgpaptr=cgpa;
+
     }
 
     Student(Student &obj){
