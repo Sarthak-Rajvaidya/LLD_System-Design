@@ -70,7 +70,11 @@ int main(){
     // cout<<t1.getsalary()<<endl;
 
     Teacher t1("SArthak","computer Science",25000);
-    t1.getinfo();
+    // t1.getinfo();
+
+    //Copy constrcter
+    Teacher t2(t1);
+    t2.getinfo();
 
 
 
