@@ -13,17 +13,16 @@ public:
         cout<<this->name<<endl;
     }
 
+
 };
 
 
 
 int main(){
-
-    Teacher t1("Sarthak");
-    Teacher t2("Sarth");
+    Teacher t1("sarthak");
+    Teacher t2("Prashant");
 
     t1.display();
     t2.display();
 
-    return 0;
 }
