@@ -16,7 +16,8 @@ public:
 
     Student(Student &obj){
         this->name = obj.name;
-        this->cgpa = obj.cgpa;
+        cgpaptr=new double;
+        *cgpaptr = *obj.cgpaptr;
     }
 
     void getInfo(){
