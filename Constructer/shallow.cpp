@@ -34,7 +34,9 @@ int main(){
     s1.getInfo();
     Student s2(s1);
     *(s2.cgpaptr) = 8.09;
-    
+    cout<<" name : sarth"<<endl;
+
+
     s2.getInfo();
     
     
