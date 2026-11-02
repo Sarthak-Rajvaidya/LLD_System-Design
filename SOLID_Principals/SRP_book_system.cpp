@@ -57,6 +57,20 @@ public:
 
 };
 
+class BookPrinter {
+public:
+    void printBook(Book b) {
+        // Printing responsibility
+    }
+};
+
+class BookRepository {
+public:
+    void saveBook(Book b) {
+        // Database/file storage responsibility
+    }
+};
+
 int main(){
     return 0;
 }
