@@ -41,7 +41,7 @@ public:
 
 //Impelmeting different payyment methods
 
-class UPI : PaymentMethod{
+class UPI :public PaymentMethod{
 public:
     void pay(double amount) override{
         cout <<"Paid"<<amount<<"Uisng UPI"<<endl;
@@ -49,7 +49,7 @@ public:
 
 };
 
-class CreditCard : PaymentMethod{
+class CreditCard :public PaymentMethod{
 public:
     void pay(double amount) override{
         cout<<"Paid"<<amount<<"Using CreditCard"<<endl;
@@ -58,7 +58,7 @@ public:
     
 };
 
-class Paypal : PaymentMethod{
+class Paypal :public PaymentMethod{
 public:
     void pay(double amount) override{
         cout<<"Paid"<<amount<<"using Paypal"<<endl;
