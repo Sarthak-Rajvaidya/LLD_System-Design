@@ -66,6 +66,13 @@ public:
 
 };
 
+//Use abstarction to get values
+
+void checkout(PaymentMethod &payment,double amount){
+    payment.pay(amount);
+
+}
+
 
 int main(){
     return 0;
