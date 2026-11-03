@@ -58,6 +58,14 @@ public:
     
 };
 
+class Paypal : PaymentMethod{
+public:
+    void pay(double amount) override{
+        cout<<"Paid"<<amount<<"using Paypal"<<endl;
+    }
+
+};
+
 
 int main(){
     return 0;
