@@ -39,6 +39,16 @@ public:
 
 };
 
+//Impelmeting different payyment methods
+
+class UPI : PaymentMethod{
+public:
+    void pay(double amount) override{
+        cout <<"Paid"<<amount<<"Uisng UPI"<<endl;
+    }
+
+};
+
 
 
 int main(){
