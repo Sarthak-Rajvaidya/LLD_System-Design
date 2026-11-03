@@ -49,6 +49,14 @@ public:
 
 };
 
+class CreditCard : PaymentMethod{
+public:
+    void pay(double amount) override{
+        cout<<"Paid"<<amount<<"Using CreditCard"<<endl;
+
+    }
+    
+};
 
 
 int main(){
