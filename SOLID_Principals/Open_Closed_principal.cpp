@@ -75,6 +75,21 @@ void checkout(PaymentMethod &payment,double amount){
 
 
 int main(){
+
+    UPI upi;
+    CreditCard creditcard;
+    Paypal paypal;
+
+    checkout(upi,500);
+    checkout(creditcard,1000);
+    checkout(paypal,2000);
+
+    //the inheritance is private by default.
+
+// That means UPI privately inherits PaymentMethod, so an UPI object cannot be treated as a PaymentMethod from outside the class.
+
+
+
     return 0;
     
 }
