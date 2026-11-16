@@ -46,6 +46,19 @@ public:
 
 };
 
+
+// Responsibility 3: Salary slip generation
+class SalarySlipGenerator {
+public:
+    void generateSalarySlip(Employee &emp, double salary) {
+        cout << "\n----- Salary Slip -----" << endl;
+        cout << "Employee ID: " << emp.getid() << endl;
+        cout << "Employee Name: " << emp.getname() << endl;
+        cout << "Net Salary: " << salary << endl;
+        cout << "----------------------" << endl;
+    }
+};
+
 int main(){
     return 0;
 
