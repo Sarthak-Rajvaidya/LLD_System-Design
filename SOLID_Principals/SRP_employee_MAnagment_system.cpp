@@ -59,6 +59,15 @@ public:
     }
 };
 
+// Responsibility 4: Employee database storage
+class EmployeeRepository {
+public:
+    void saveEmployee(Employee &emp) {
+        cout << "Employee " << emp.getname()
+             << " saved to database" << endl;
+    }
+};
+
 int main(){
     return 0;
 
