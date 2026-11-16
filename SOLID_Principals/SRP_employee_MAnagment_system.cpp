@@ -32,6 +32,20 @@ public:
 
 };
 
+//Ressponsibility 2 :- Get salary calculation for deduction
+
+class SalaryCalculator {
+public:
+    double caluclatesalary(Employee &emp){
+        double deductions = emp.getsalary() * 0.10;
+        double netsalary = emp.getsalary() - deductions;
+
+        return netsalary;
+    }
+
+
+};
+
 int main(){
     return 0;
 
