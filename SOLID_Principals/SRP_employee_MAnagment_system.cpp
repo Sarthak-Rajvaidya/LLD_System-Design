@@ -68,6 +68,15 @@ public:
     }
 };
 
+// Responsibility 5: Email sending
+class EmailService {
+public:
+    void sendEmail(Employee &emp) {
+        cout << "Salary slip sent to "
+             << emp.getname() << " through email" << endl;
+    }
+};
+
 int main(){
     return 0;
 
