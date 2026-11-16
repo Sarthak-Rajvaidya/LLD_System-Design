@@ -2,32 +2,35 @@
 
 using namespace std;
 
-class Employees{
-public:
-    string name;
+class Employee{
+private:
     int id;
-    double salary;
+    string name;
+    double basicsalary;
 
-    void calculatesalary(){
-        // To caluclate salary of the employee
+public:
+    Employee(int i,string n,double s){
+        id = i;
+        name = n;
+        basicsalary=s;
+
+
     }
 
-    void generateslip(){
-        //To generate slip of the salary
+    int getid(){
+        return id;
     }
 
-    void savetodatabase(){
-        // To save bills and data to databse
+    string getname(){
+        return name;
     }
-
-    void sendemail(){
-        //To send email to employess
+    double getsalary(){
+        return basicsalary;
     }
 
 
 
 };
-
 
 int main(){
     return 0;
