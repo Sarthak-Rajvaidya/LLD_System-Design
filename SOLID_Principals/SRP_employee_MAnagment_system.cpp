@@ -36,7 +36,7 @@ public:
 
 class SalaryCalculator {
 public:
-    double caluclatesalary(Employee &emp){
+    double calculatesalary(Employee &emp){
         double deductions = emp.getsalary() * 0.10;
         double netsalary = emp.getsalary() - deductions;
 
@@ -78,6 +78,21 @@ public:
 };
 
 int main(){
+   Employee emp(101, "Sarthak", 50000);
+
+    SalaryCalculator calculator;
+    double netSalary = calculator.calculatesalary(emp);
+
+    SalarySlipGenerator slipGenerator;
+    slipGenerator.generateSalarySlip(emp, netSalary);
+
+    EmployeeRepository repository;
+    repository.saveEmployee(emp);
+
+    EmailService email;
+    email.sendEmail(emp);
+
     return 0;
+
 
 }
