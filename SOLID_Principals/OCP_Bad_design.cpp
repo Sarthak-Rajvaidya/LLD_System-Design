@@ -19,5 +19,9 @@ public:
 };
 
 int main(){
+    Discount d;
+
+    cout<<d.calculatediscount("REGULAR",1000);
+
     return 0;
 }
