@@ -9,6 +9,12 @@ public:
     virtual ~Bird() = default;
 };
 
+class FlyingBird{
+public:
+    virtual void fly() = 0;
+
+};
+
 
 
 int main(){
