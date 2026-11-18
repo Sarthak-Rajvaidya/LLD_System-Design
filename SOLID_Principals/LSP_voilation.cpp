@@ -30,5 +30,13 @@ void makebirdfly(Bird &bird){
 
 
 int main(){
+    Sparrow sparrow;
+    Penguin penguin;
+
+    makebirdfly(sparrow);
+    makebirdfly(penguin);
+
+
+
     return 0;
 }
