@@ -23,6 +23,10 @@ class Penguin : public Bird{
     }
 };
 
+void makebirdfly(Bird &bird){
+    bird.fly();
+}
+
 
 
 int main(){
