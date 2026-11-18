@@ -13,6 +13,10 @@ public:
 
 };
 
+//Regular customer - 5 % discount
+
+class RegularDiscount
+
 int main(){
     return 0;
 }
