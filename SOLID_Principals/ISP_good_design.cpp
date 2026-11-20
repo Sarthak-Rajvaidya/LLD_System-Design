@@ -68,6 +68,19 @@ public:
 
 
 int main(){
+    SimplePrinter simple;
+    MultiplePrinter multiple;
+    MultifunctionPrinter Multfunc;
+
+    simple.print();
+
+    multiple.fax();
+    multiple.scan();
+
+
+    Multfunc.print();
+    Multfunc.scan();
+    Multfunc.fax();
 
     return 0;
 
