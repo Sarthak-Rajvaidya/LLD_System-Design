@@ -11,6 +11,23 @@ public:
 
 };
 
+class Simplemachine : public Machine{
+public:
+    void print() override{
+        cout<<"MAchine is printing"<<endl;
+    }
+
+    void scan() override{
+        //not supported
+
+    }
+
+    void fax() override{
+        //not supported
+    }
+
+};
+
 
 
 int main(){
