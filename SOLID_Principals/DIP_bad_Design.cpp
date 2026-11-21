@@ -22,5 +22,8 @@ public:
 
 
 int main(){
+    Notification n;
+    n.notify();
+    
     return 0;
 }
