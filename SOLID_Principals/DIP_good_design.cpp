@@ -22,6 +22,15 @@ public:
 
 };
 
+class SMSservice: public NotificationSystem{
+public:
+    void send() override{
+        cout<<"Notification is sent through SMS"<<endl;
+    }
+
+    
+};
+
 
 
 
