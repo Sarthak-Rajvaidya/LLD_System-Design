@@ -12,7 +12,15 @@ public:
 };
 
 
+class EmailService : public NotificationSystem{
+public:
+    void send() override{
+        cout<<"Email is sent to user"<<endl;
+    }
 
+
+
+};
 
 
 
