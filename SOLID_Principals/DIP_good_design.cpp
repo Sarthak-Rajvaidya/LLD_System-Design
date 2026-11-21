@@ -34,10 +34,10 @@ public:
 // High-level module
 class Notification {
 private:
-    NotificationService &service;
+    NotificationSystem &service;
 
 public:
-    Notification(NotificationService &s) : service(s) {}
+    Notification(NotificationSystem &s) : service(s) {}
 
     void notify() {
         service.send();
