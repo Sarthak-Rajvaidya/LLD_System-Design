@@ -28,7 +28,20 @@ public:
         cout<<"Notification is sent through SMS"<<endl;
     }
 
-    
+
+};
+
+// High-level module
+class Notification {
+private:
+    NotificationService &service;
+
+public:
+    Notification(NotificationService &s) : service(s) {}
+
+    void notify() {
+        service.send();
+    }
 };
 
 
