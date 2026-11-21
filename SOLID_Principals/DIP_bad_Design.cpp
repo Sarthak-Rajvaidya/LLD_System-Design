@@ -9,6 +9,15 @@ public:
 
 };
 
+class Notification{
+private:
+    EmailService email;
+
+public:
+    void notify(){
+        email.sendemail();
+    }
+};
 
 
 
