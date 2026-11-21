@@ -48,5 +48,13 @@ public:
 
 
 int main(){
+    EmailService email;
+    SMSservice sms;
+
+    Notification n1(email);
+    Notification n2(sms);
+
+    n1.notify();
+    n2.notify();
     return 0;
 }
