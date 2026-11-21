@@ -1,2 +1,22 @@
 //To remov ethose error that we if need to add SMS service tommororw we need to modify the notificationsystem class
 //We will us ethe Abstarction class uisng virtual keyword these would reduce the problem..the following is the correction codde
+
+#include<iostream>
+using namespace std;
+
+class NotificationSystem{
+public:
+    virtual void send() = 0;
+    virtual ~NotificationSystem() = default;
+
+};
+
+
+
+
+
+
+
+int main(){
+    return 0;
+}
